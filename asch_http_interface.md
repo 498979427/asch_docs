@@ -2086,7 +2086,7 @@ var password = 'measure bottom stock hospital calm hurdle come banner high edge 
 var secondPassword  = 'erjimimashezhi001';
 var userName = 'zhenxi_test';  
 
-var transaction = asch.delegate.createDelegate(password, userName, secondPassword || undefined);   
+var transaction = asch.delegate.createDelegate(userName, password, secondPassword || undefined);   
 JSON.stringify(transaction)  
 '{"type":2,"amount":0,"fee":10000000000,"recipientId":null,"senderPublicKey":"3e6e7c90571b9f7dabc0abc2e499c2fcee8e436af3a9d5c8eadd82ac7aeae85f","timestamp":5334485,"asset":{"delegate":{"username":"zhenxi_test","publicKey":"3e6e7c90571b9f7dabc0abc2e499c2fcee8e436af3a9d5c8eadd82ac7aeae85f"}},"signature":"a12ce415d2d21ab46e4c1b918b8717b1d351dd99abd6f2f94d9a1a7e1f32b697f843a05b1851cb857ea45a2476dce592f5ddd612c00cd44488b8b610c57d7f0a","signSignature":"35adc9f1f37d14458e8588f9b4332eedf1151c02480159f64a287a4b0cbb59bfe82040dfec96a4d9560bae99b8eaa1799a7023395db5ddc640d95447992d6e00","id":"12310465407307249905"}'
 
